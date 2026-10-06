@@ -82,7 +82,7 @@ namespace hoverboard_driver
     /// @param message value to publish
     void publish_temp(double message);
 
-    /// @brief publish emergency button state
+    /// @brief publish emergency button state: true = released (motors enabled), false = pressed (stopped)
     /// @param message value to publish
     void publish_button_state(bool msg);
 
